@@ -1,0 +1,59 @@
+
+#main{
+    display: flex;
+    flex-direction: column;
+    flex:1;  
+}
+#logo{
+    padding: 30px;
+    margin:10px;
+    width: 180px;
+}
+#header{
+    display: flex;
+}
+div p{
+    padding-top: 45px;
+    font-family: fantasy;
+    font-size: 30px;
+    color:white; 
+}
+h4{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    color:white; 
+
+}
+@media(max-width: 760px){
+    #main{
+        max-width: 70vh;
+    }
+    h4{
+        font-size: 15px;
+        color:white; 
+    }
+    div p{
+        font-size: 25px;
+        padding-top: 65px;
+    }
+    #logo{
+        padding-top: 30px;
+        padding-bottom: 30px;
+        padding-right: 5px;
+        padding-left: 10px;
+        width: 180px;
+    }
+}
+#main2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 70px;
+}
+body {
+    overflow: hidden;
+    margin: 0;
+    background-image: url("https://user-images.githubusercontent.com/26748614/96337246-f14d4580-1085-11eb-8793-a86d929e034d.jpg");
+    background-size: cover;
+    backdrop-filter:  brightness(50%);
+}
