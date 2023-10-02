@@ -29,11 +29,11 @@ h4{
         max-width: 70vh;
     }
     h4{
-        font-size: 15px;
+        font-size: 17px !important;
         color:white; 
     }
     div p{
-        font-size: 25px;
+        font-size: 20px;
         padding-top: 65px;
     }
     #logo{
@@ -54,6 +54,9 @@ body {
     overflow: hidden;
     margin: 0;
     background-image: url("https://user-images.githubusercontent.com/26748614/96337246-f14d4580-1085-11eb-8793-a86d929e034d.jpg");
-    background-size: cover;
-    backdrop-filter:  brightness(50%);
+    
+    
+}
+#get{
+    color:white !important;
 }
