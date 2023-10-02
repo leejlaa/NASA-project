@@ -1,3 +1,8 @@
 # NASA-project
 How to use the project?
-nmp install to install all used dependencies
+<pre>
+    <code>
+       nmp install 
+    </code>
+</pre>
+to install all used dependencies
